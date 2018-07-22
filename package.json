@@ -1,0 +1,29 @@
+{
+  "name": "italiancoders-netlify-auth",
+  "version": "0.0.0",
+  "description": "Auth Service API for italiancoders netlify CMS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "deploy": "now && now alias"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItalianCoders/italiancoders-netlify-auth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ItalianCoders/italiancoders-netlify-auth/issues"
+  },
+  "homepage": "https://github.com/ItalianCoders/italiancoders-netlify-auth#readme",
+  "dependencies": {
+    "crypto-random-string": "^1.0.0",
+    "dotenv": "^6.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "randomstring": "^1.1.5",
+    "simple-oauth2": "^2.2.0"
+  }
+}

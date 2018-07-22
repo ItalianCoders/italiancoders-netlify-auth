@@ -1,0 +1,7 @@
+{
+  "name": "italiancoders-netlify-auth",
+  "alias": "italiancoders-netlify-auth",
+  "type": "npm",
+  "public": true,
+  "dotenv": true
+}
